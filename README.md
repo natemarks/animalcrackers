@@ -25,7 +25,7 @@ Download the initializer zip, unpack it and open it in Intellij like this:
 
 *NOTE:* The project zip and folder name will actually be animalcrackers
 
-![alt text](images/intelij-gradle-import.png)
+![alt text](images/intellij-gradle-import.png)
 
 ## Intellij configuration
 
