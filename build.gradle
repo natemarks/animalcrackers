@@ -31,3 +31,9 @@ dependencies {
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+
+
+bootJar {
+	baseName = 'animalcrackers'
+    version =  '0.1.0'
+}

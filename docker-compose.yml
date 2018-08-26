@@ -1,0 +1,7 @@
+version: '3'
+services:
+  restserver:
+    build: .
+    container_name: animalcrackers
+    ports:
+    - "8080:8080"
