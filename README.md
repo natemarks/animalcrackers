@@ -20,3 +20,24 @@ Select full version:
 After this, I use add dependencies for Lombok, Spring REST data and Configuration Processor
 
 ![alt text](images/animalcrackers-initializr.png)
+
+Download the initializer zip, unpack it and open it in Intellij like this:
+
+*NOTE:* The project zip and folder name will actually be animalcrackers
+
+![alt text](images/intelij-gradle-import.png)
+
+## Intellij configuration
+
+In Intellij enable annotation processing. It’s required for Lombok.
+
+![alt text](images/enable-annotation-processing.png)
+
+Install the Lombok plugin for Intellij
+
+## Gradle Customization
+
+Add: 
+```
+Apply plugin: ‘idea'
+```
