@@ -41,3 +41,19 @@ Add:
 ```
 Apply plugin: ‘idea'
 ```
+
+Add .gitignore settings for IntelliJ and  for Java
+
+# First Milestone: Build and run the application
+
+We create two class files and edit the resources/applicaiton.properties file
+
+The AnimalcrackersConfigurationProperties class gives the application access to the configuration data in the application.properties file, specifically the 'response' attribute. This is also an example of using the Lombok getter and setter annotaitons to minimize boilerplate methods.
+
+The AnimalcrackersBaseController class has the method the the '/' REST endpoint.  It uses the application property 'response' from AnimalcrackersConfigurationProperties to return a string when we run:
+
+```
+curl http://localhost:8080/
+```
+
+The logging level is set in resources/application.properties, too.  If it's set to DEBUG,  two messages (an INFO and  DEBUG ) should be printed to STDOUT everytime  the REST endpoint is used.  If it's set to INFO, there will just be one message.
