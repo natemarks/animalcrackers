@@ -58,7 +58,7 @@ curl http://localhost:8080/
 
 The logging level is set in resources/application.properties, too.  If it's set to DEBUG,  two messages (an INFO and  DEBUG ) should be printed to STDOUT everytime  the REST endpoint is used.  If it's set to INFO, there will just be one message.
 
-#  Now do it in do
+#  Now do it in Docker
 
 First, we've been building the  class files, now we want to put everything into a jar container file to make it easier to deploy.
 
